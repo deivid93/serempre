@@ -3,7 +3,7 @@
 <div class="row">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <div style="margin-left: 30px;">
-        <a href="{{ route('client.new') }}" class="btn btn-success"><span style="margin-rigth:4px;" id="" class="glyphicon glyphicon-user"></span><span style="margin-left:10px;">Alta Clientes</span></a>
+        <a href="{{ route('client.new') }}" class="btn btn-success"><span style="margin-rigth:4px;" id="" class="glyphicon glyphicon-user"></span><span style="margin-left:10px;">Nuevos Clientes</span></a>
         <div class="clearboth">&nbsp;</div>
     </div>
 
